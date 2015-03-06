@@ -11,7 +11,7 @@
         android:background="@color/theam" >
 
         <ImageView
-            android:id="@+id/acon_defender_knowledge_activity_layout_img_back"
+            android:id="@+id/question_activity_layout_img_back"
             android:layout_width="36dp"
             android:layout_height="36dp"
             android:layout_alignParentLeft="true"
@@ -23,28 +23,53 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="艾检知道"
+            android:text="我要提问"
             android:textColor="@android:color/white"
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/acon_defender_knowledge_activity_layout_tv_question"
+            android:id="@+id/question_activity_layout_tv_commit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="10dp"
-            android:text="我要提问"
+            android:text="发送"
             android:textColor="@android:color/white"
             android:textSize="16sp" />
     </RelativeLayout>
 
-    <ListView
-        android:id="@+id/acon_defender_knowledge_activity_layout_lv_know"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:divider="@android:color/white"
-        android:dividerHeight="20dp" >
-    </ListView>
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical|left"
+        android:text="联系方式:"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical|left"
+        android:text="提问内容："
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="left|top" />
 
 </LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF9900"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="用户：122112121212"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF9900"
+        android:padding="10dp"
+        android:text="问题：怎样创建多行的edittext"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF9900"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="解答：在很多软件中，都会遇到设定颜色值的问题，十六进制颜色码就是在软件中设定颜色值的代码。人的眼睛看到的颜色值的问题，十六进制颜色码就是在软件中设定颜色值的代码。人的眼睛看到的颜色值的问题，十六进制颜色码就是在软件中设定颜色值的代码。人的眼睛看到的颜色值的问题，十六进制颜色码就是在软件中设定颜色值的代码。人的眼睛看到的颜色值的问题，十六进制颜色码就是在软件中设定颜色值的代码。人的眼睛看到的颜色有两种： ⒈ 一种是发光体发出的颜色，比如计算机显示器屏幕显示的颜色； ⒉ 另一种是物体本身不发光，而是反射的光产生的颜色，比如看报纸和杂志上的颜色。 我们又知道任何颜色都是由三种最"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+</LinearLayout>

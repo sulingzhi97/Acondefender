@@ -5,12 +5,10 @@ public class ContentIcon {
 	private int stringID;
 	private int sourceID;
 
-	public ContentIcon(){
-		
+	public ContentIcon() {
 	}
-	
-	
-	public ContentIcon(int stringID, int sourceID,int itemID) {
+
+	public ContentIcon(int stringID, int sourceID, int itemID) {
 		this.stringID = stringID;
 		this.sourceID = sourceID;
 		this.itemID = itemID;
@@ -20,7 +18,6 @@ public class ContentIcon {
 		return itemID;
 	}
 
-
 	public void setItemID(int stringID) {
 		this.itemID = stringID;
 	}
@@ -29,11 +26,9 @@ public class ContentIcon {
 		return stringID;
 	}
 
-
 	public void setStringID(int stringID) {
 		this.stringID = stringID;
 	}
-
 
 	public int getSourceID() {
 		return sourceID;
