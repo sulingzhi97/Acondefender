@@ -1,10 +1,9 @@
 package com.acon.acondefender.adapter;
 
 import java.util.List;
-import java.util.zip.Inflater;
 
+import com.acon.acondefender.R;
 import com.acon.acondefender.bean.ContactBean;
-import com.test.acon.adapter.FileResourceListAdapter.ViewHolder;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -46,9 +45,27 @@ public class ContactsAdapter extends BaseAdapter {
 		ContactBean cb = (ContactBean) getItem(position);
 		ViewHolder holder = null;
 		if (convertView == null) {
-
+			convertView = mInflater.inflate(R.layout.contacts_adapter_layout,
+					null);
+			holder = new ViewHolder();
+			holder.imgPhoto = (ImageView) convertView
+					.findViewById(R.id.contacts_adapter_image);
+			holder.tvName = (TextView) convertView
+					.findViewById(R.id.contacts_adapter_name);
+			holder.tvPhoneNumber = (TextView) convertView
+					.findViewById(R.id.contacts_adapter_phone);
+			holder.tvAddress = (TextView) convertView
+					.findViewById(R.id.contacts_adapter_address);
+			convertView.setTag(holder);
+		} else {
+			holder = (ViewHolder) convertView.getTag();
 		}
-		return null;
+
+		holder.tvName.setText(cb.getName());
+		holder.tvAddress.setText(cb.getAddress());
+		holder.tvPhoneNumber.setText(cb.getPhoneNumber());
+
+		return convertView;
 	}
 
 	private class ViewHolder {
