@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.acon.acondefender"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/theam"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="艾检"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="212dp"
+        android:background="@drawable/user_background"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.acon.acondefender.entity.CircleImageView
+            android:id="@+id/main_activity_layout_img_user"
+            android:layout_width="156dp"
+            android:layout_height="156dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/ic_user_default"
+            app:border_color="#ffffff"
+            app:border_width="10dp" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/main_activity_layout_gridview_function"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:paddingBottom="12dp"
+        android:paddingTop="12dp" >
+    </GridView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal|bottom" >
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/wifi_left" />
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/wifi_right" />
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/bluetooth" />
+    </RelativeLayout>
+
+</LinearLayout>

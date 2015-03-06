@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="theam">#66CC00</color>
+    <color name="gray_0">#eeeeee</color>
+    <color name="gray_1">#CCCCCC</color>
+    <color name="gray_2">#999999</color>
+    <color name="red">#FF0000</color>
+    <color name="transparent">#00000000</color>
+
+</resources>

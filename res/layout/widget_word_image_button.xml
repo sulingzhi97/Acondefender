@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="14dp" >
+
+    <ImageView
+        android:id="@+id/widget_word_image_button_iv_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal|top"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/widget_word_image_button_tv_word"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

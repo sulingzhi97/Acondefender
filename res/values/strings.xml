@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">AconDefender</string>
+    <string name="data_list">数据列表</string>
+    <string name="blood_glucose_manager">血糖管理</string>
+    <string name="user_manager">用户管理</string>
+    <string name="acon_defender_information">艾检资讯</string>
+    <string name="acon_defender_knowledge">艾检知道</string>
+    <string name="contacts">联系艾检</string>
+    <string name="forgot_password"><u>忘记密码</u></string>
+    <string name="register_at_once"><u>还没有账号，立即注册</u></string>
+    <string name="p2refresh_head_load_more">加载更多</string>
+    <string name="p2refresh_end_load_more">更    多</string>
+    <string name="p2refresh_end_click_load_more">点击加载</string>
+    <string name="p2refresh_release_refresh">松开刷新</string>
+    <string name="p2refresh_pull_to_refresh">下拉刷新</string>
+    <string name="p2refresh_doing_head_refresh">正在刷新&#8230;</string>
+    <string name="p2refresh_doing_end_refresh">加载中&#8230;</string>
+    <string name="p2refresh_refresh_lasttime">最近更新&#160;&#058;&#160;</string>
+    <string name="image_desc">图片</string>
+
+</resources>
